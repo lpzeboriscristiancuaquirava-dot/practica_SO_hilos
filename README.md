@@ -2,11 +2,11 @@
 
 ---
 
-## 1. Descripcion y Explicacion del Codigo
+## 1. Descripcion 
 
 Este programa simula un sistema de procesamiento de archivos donde un conjunto de 24 documentos debe ser clasificado y procesado por 4 trabajadores concurrentes (Carlos, Sofia, Mateo y Valentina), representados como hilos (threading.Thread).
 
-### Como funciona internamente
+### Como funciona 
 
 1. **Generacion y mezcla de documentos:** Se crean 24 documentos con un identificador unico (DOC-01 a DOC-24) y un tamano simulado al azar entre 1 y 5. Antes de iniciar la ejecucion, la lista de documentos se desordena con random.shuffle() para asegurar que en cada corrida la asignacion sea totalmente diferente.
 2. **Cola de trabajo compartida (queue.Queue):** Los documentos mezclados se insertan en una cola global de la cual los 4 hilos van retirando tareas de forma dinamica a medida que se liberan.
@@ -29,7 +29,7 @@ Este programa simula un sistema de procesamiento de archivos donde un conjunto d
 
 ---
 
-## 3. Respuestas a las Preguntas de Analisis
+## 3. Preguntas 
 
 ### 1. ¿Por que queue.Queue es apropiada para compartir trabajos?
 Porque queue.Queue es una estructura de datos Thread-Safe (segura para hilos). Esto significa que implementa bloqueos de sincronizacion internos automaticamente, lo que permite que multiples hilos consulten o extraigan elementos al mismo tiempo (get_nowait()) sin riesgo de que dos trabajadores tomen exactamente el mismo documento o corrompan la cola en memoria.
@@ -47,7 +47,7 @@ Si actualizaramoss ese diccionario sin el Lock, se me presentaria una condicion 
 
 ---
 
-## 4. Reto Adicional y Conclusiones
+## 4. Reto Adicional
 
 * **Medicion de Tiempo:** Se integro la libreria time para registrar el tiempo total transcurrido en la simulacion concurrente (desde el inicio hasta que el ultimo hilo finaliza en el join()).
 * **Acumulado por Tamano:** El reporte final contabiliza tanto la cantidad de documentos procesados por trabajador como la suma total del tamano simulado de sus archivos.
