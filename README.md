@@ -1,9 +1,5 @@
 # Practica 1: Hilos, Concurrencia y Sincronizacion en Sistemas Operativos
 
-**Materia:** Sistemas Operativos  
-**Carrera:** Ingenieria de Sistemas  
-**Rama de Git:** Practica1  
-
 ---
 
 ## 1. Descripcion y Explicacion del Codigo
@@ -22,7 +18,7 @@ Este programa simula un sistema de procesamiento de archivos donde un conjunto d
 
 ## 2. Evidencias de Ejecucion
 
-A continuacion se muestran 4 ejecuciones independientes del programa. En cada una de ellas se demuestra el dinamismo del sistema: el orden y los documentos asignados a cada trabajador cambian, pero siempre se garantiza que cada uno procese exactamente 6 documentos y se completen los 24 en total.
+ se muestra 4 ejecuciones independientes del programa. En cada una de ellas se demuestra el dinamismo del sistema: el orden y los documentos asignados a cada trabajador cambian, pero siempre se garantiza que cada uno procese exactamente 6 documentos y se completen los 24 en total.
 
 | N° Ejecucion | Captura de Pantalla |
 | :---: | :--- |
