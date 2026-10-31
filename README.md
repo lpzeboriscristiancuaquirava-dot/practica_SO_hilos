@@ -26,10 +26,10 @@ A continuacion se muestran 4 ejecuciones independientes del programa. En cada un
 
 | N° Ejecucion | Captura de Pantalla |
 | :---: | :--- |
-| **Ejecucion 1** | ![Ejecucion 1](img/captura1.png) |
-| **Ejecucion 2** | ![Ejecucion 2](img/captura2.png) |
-| **Ejecucion 3** | ![Ejecucion 3](img/captura3.png) |
-| **Ejecucion 4** | ![Ejecucion 4](img/captura4.png) |
+| **Ejecucion 1** | ![Ejecucion 1](img/captura1.png.jpeg) |
+| **Ejecucion 2** | ![Ejecucion 2](img/captura2.png.jpeg) |
+| **Ejecucion 3** | ![Ejecucion 3](img/captura3.png.jpeg) |
+| **Ejecucion 4** | ![Ejecucion 4](img/captura4.png.jpeg) |
 
 ---
 
